@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div id="logo" align="center"><img src="<?php echo base_url();?>/images/logo.png"></div>
+	<div id="logo" align="center"><img src="<?php echo base_url();?>/images/bloclogo.png" width="200px"></div>
 
 	<div id="login">
 		<?php echo form_open('login') ?>
@@ -35,7 +35,7 @@
 			</div>
 		<?php echo form_close(); ?>
 		
-		<h1>Open Source Point Of Sale <?php echo $this->config->item('application_version'); ?></h1>
+		<h1>Bloc Point Of Sale <?php echo $this->config->item('application_version'); ?></h1>
 	</div>
 </body>
 </html>
